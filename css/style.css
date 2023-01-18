@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+/** header **/
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Actor', sans-serif;}
+body{
+    background-color: #E1E7EC;
+}
+header{
+    width: auto;
+}
+.navbar{
+    background-color: #A7B7D0;
+    /* background-image: linear-gradient(to right, #778cad, #A7B7D0);*/
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.navlogo{
+    width: 120px;
+    cursor:pointer;
+}
+
+.navmenu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+
+
+/** footer **/
+footer{
+    width: auto;
+    background-color: #E1E7EC;
+    color:#A7B7D0;
+}
+.footer_div{
+    display: flex;
+    justify-content: center;
+}
